@@ -8,9 +8,9 @@ import java.util.List;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Category {
-    String categoryName;
+    private String categoryName;
     @XmlElement(name = "subcategory")
-    List<Subcategory> subcategories = new ArrayList<>();
+    private List<Subcategory> subcategories = new ArrayList<>();
 
     public String getCategoryName() {
         return categoryName;

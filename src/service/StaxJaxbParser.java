@@ -23,7 +23,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-public class StaxJaxb {
+public class StaxJaxbParser {
 
     public void parse(String shopXml) throws XMLStreamException, JAXBException {
         XMLInputFactory xif = XMLInputFactory.newFactory();
@@ -32,30 +32,29 @@ public class StaxJaxb {
         Shop shop = null;
         while (xsr.hasNext()) {
             int event = xsr.nextTag();
-            if (event == XMLStreamReader.END_ELEMENT && xsr.getLocalName().equals("shop"))
+            if (event == XMLStreamReader.END_ELEMENT && xsr.getLocalName().equalsIgnoreCase(TagName.SHOP.toString()))
                 break;
             if (event == XMLStreamReader.START_ELEMENT) {
-                if (xsr.getLocalName().equals("shop"))
+                if (xsr.getLocalName().equalsIgnoreCase(TagName.SHOP.toString()))
                     shop = new Shop();
-                if (xsr.getLocalName().equals("category")) {
+                if (xsr.getLocalName().equalsIgnoreCase(TagName.CATEGORY.toString())) {
                     Category category = new Category();
                     if (shop != null)
                         shop.getCategories().add(category);
                 }
-                if (xsr.getLocalName().equals("categoryName")) {
+                if (xsr.getLocalName().equalsIgnoreCase(TagName.CATEGORYNAME.toString())) {
                     List<Category> categories = null;
                     if (shop != null)
                         categories = shop.getCategories();
                     if (categories != null)
                         categories.get(categories.size() - 1).setCategoryName(xsr.getElementText());
                 }
-                if (xsr.getLocalName().equals("subcategory")) {
+                if (xsr.getLocalName().equalsIgnoreCase(TagName.SUBCATEGORY.toString())) {
                     JAXBContext jc = JAXBContext.newInstance(Subcategory.class);
                     Unmarshaller unmarshaller = jc.createUnmarshaller();
                     JAXBElement<Subcategory> jb = unmarshaller.unmarshal(xsr, Subcategory.class);
-                    List<Category> categories = null;
                     if (shop != null) {
-                        categories = shop.getCategories();
+                        List<Category> categories = shop.getCategories();
                         categories.get(categories.size() - 1).getSubcategories().add(jb.getValue());
                     }
                 }
@@ -86,7 +85,6 @@ public class StaxJaxb {
             System.out.println("XML валидный");
         } catch (SAXException e) {
             System.out.println("XML НЕ ВАЛИДНЫЙ");
-            System.exit(0);
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }

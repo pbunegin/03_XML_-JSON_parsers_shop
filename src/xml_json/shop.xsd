@@ -33,10 +33,10 @@
                                                                         </xs:restriction>
                                                                     </xs:simpleType>
                                                                 </xs:element>
-                                                                <xs:element type="xs:string" name="color"/>
                                                                 <xs:element type="xs:double" name="price"/>
                                                                 <xs:element type="xs:int" name="quantity"/>
                                                             </xs:sequence>
+                                                            <xs:attribute name ="color" type="xs:string"/>
                                                         </xs:complexType>
                                                     </xs:element>
                                                 </xs:sequence>

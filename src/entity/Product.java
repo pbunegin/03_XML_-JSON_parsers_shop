@@ -8,20 +8,24 @@ import service.LocalDateSerializer;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.time.LocalDate;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Product {
-    String producer;
-    String model;
+    private String producer;
+    private String model;
     @XmlJavaTypeAdapter(LocalDateAdapter.class)
     @JsonDeserialize(using = LocalDateDeserializer.class)
     @JsonSerialize(using = LocalDateSerializer.class)
+    private
     LocalDate productionDate;
+    @XmlAttribute
+    private
     String color;
-    double price;
-    int quantity;
+    private double price;
+    private int quantity;
 
     public String getProducer() {
         return producer;

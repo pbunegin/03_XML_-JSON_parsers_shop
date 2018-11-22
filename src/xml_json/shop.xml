@@ -6,27 +6,24 @@
         <subcategory>
             <subcategoryName>Ноутбуки</subcategoryName>
             <products>
-                <product>
+                <product color="Белый">
                     <producer>Irbis</producer>
                     <model>NB290</model>
                     <productionDate>12-10-2017</productionDate>
-                    <color>Белый</color>
                     <price>7999</price>
                     <quantity>35</quantity>
                 </product>
-                <product>
+                <product color="Белый">
                     <producer>Irbis</producer>
                     <model>NB344</model>
                     <productionDate>20-05-2016</productionDate>
-                    <color>Белый</color>
                     <price>7999</price>
                     <quantity>11</quantity>
                 </product>
-                <product>
+                <product color="Синий">
                     <producer>Prestigio</producer>
                     <model>PS116</model>
                     <productionDate>15-02-2018</productionDate>
-                    <color>Синий</color>
                     <price>9999</price>
                     <quantity>5</quantity>
                 </product>
@@ -35,27 +32,24 @@
         <subcategory>
             <subcategoryName>Аксессуары для ноутбуков</subcategoryName>
             <products>
-                <product>
+                <product color="Черный">
                     <producer>DEXP</producer>
                     <model>CM408</model>
                     <productionDate>25-08-2009</productionDate>
-                    <color>Черный</color>
                     <price>199</price>
                     <quantity>120</quantity>
                 </product>
-                <product>
+                <product color="Черный">
                     <producer>Aceline</producer>
                     <model>AV150</model>
                     <productionDate>14-08-2012</productionDate>
-                    <color>Черный</color>
                     <price>699</price>
                     <quantity>22</quantity>
                 </product>
-                <product>
+                <product color="Черный">
                     <producer>HP</producer>
                     <model>WE449</model>
                     <productionDate>11-06-2013</productionDate>
-                    <color>Черный</color>
                     <price>550</price>
                     <quantity>7</quantity>
                 </product>
@@ -64,27 +58,24 @@
         <subcategory>
             <subcategoryName>Комплектующие для ноутбуков</subcategoryName>
             <products>
-                <product>
+                <product color="Черный">
                     <producer>Smartbuy</producer>
                     <model>SS811</model>
                     <productionDate>05-10-2015</productionDate>
-                    <color>Черный</color>
                     <price>1450</price>
                     <quantity>16</quantity>
                 </product>
-                <product>
+                <product color="Синий">
                     <producer>WD</producer>
                     <model>WD320</model>
                     <productionDate>17-11-2014</productionDate>
-                    <color>Синий</color>
                     <price>2799</price>
                     <quantity>6</quantity>
                 </product>
-                <product>
+                <product color="Черный">
                     <producer>LITEON</producer>
                     <model>ES101</model>
                     <productionDate>18-07-2017</productionDate>
-                    <color>Черный</color>
                     <price>1850</price>
                     <quantity>19</quantity>
                 </product>
@@ -93,19 +84,17 @@
         <subcategory>
             <subcategoryName>Планшеты</subcategoryName>
             <products>
-                <product>
+                <product color="Черный">
                     <producer>FinePower</producer>
                     <model>FE785</model>
                     <productionDate>30-05-2008</productionDate>
-                    <color>Черный</color>
                     <price>1999</price>
                     <quantity>12</quantity>
                 </product>
-                <product>
+                <product color="Черный">
                     <producer>FinePower</producer>
                     <model>FN461</model>
                     <productionDate>28-06-2014</productionDate>
-                    <color>Черный</color>
                     <price>2199</price>
                     <quantity>2</quantity>
                 </product>
@@ -117,27 +106,24 @@
         <subcategory>
             <subcategoryName>Телевизоры</subcategoryName>
             <products>
-                <product>
+                <product color="Белый">
                     <producer>Harper</producer>
                     <model>HR470</model>
                     <productionDate>12-10-2017</productionDate>
-                    <color>Белый</color>
                     <price>6799</price>
                     <quantity>10</quantity>
                 </product>
-                <product>
+                <product color="Белый">
                     <producer>DEXP</producer>
                     <model>PH197</model>
                     <productionDate>20-03-2014</productionDate>
-                    <color>Белый</color>
                     <price>6999</price>
                     <quantity>4</quantity>
                 </product>
-                <product>
+                <product color="Черный">
                     <producer>Telefunken</producer>
                     <model>TF191</model>
                     <productionDate>15-02-2010</productionDate>
-                    <color>Черный</color>
                     <price>7499</price>
                     <quantity>16</quantity>
                 </product>
@@ -146,27 +132,24 @@
         <subcategory>
             <subcategoryName>Кронштейны для телевизоров</subcategoryName>
             <products>
-                <product>
+                <product color="Серый">
                     <producer>DNS</producer>
                     <model>DN261</model>
                     <productionDate>01-04-2008</productionDate>
-                    <color>Серый</color>
                     <price>450</price>
                     <quantity>42</quantity>
                 </product>
-                <product>
+                <product color="Черный">
                     <producer>РЭМО</producer>
                     <model>RM465</model>
                     <productionDate>22-10-2018</productionDate>
-                    <color>Черный</color>
                     <price>550</price>
                     <quantity>14</quantity>
                 </product>
-                <product>
+                <product color="Черный">
                     <producer>Onkron</producer>
                     <model>OR451</model>
                     <productionDate>17-07-2017</productionDate>
-                    <color>Черный</color>
                     <price>599</price>
                     <quantity>18</quantity>
                 </product>
@@ -175,27 +158,24 @@
         <subcategory>
             <subcategoryName>Домашние кинотеатры</subcategoryName>
             <products>
-                <product>
+                <product color="Черный">
                     <producer>Sony</producer>
                     <model>HE410</model>
                     <productionDate>05-10-2015</productionDate>
-                    <color>Черный</color>
                     <price>19799</price>
                     <quantity>10</quantity>
                 </product>
-                <product>
+                <product color="Синий">
                     <producer>Sony</producer>
                     <model>FE310</model>
                     <productionDate>17-11-2013</productionDate>
-                    <color>Синий</color>
                     <price>19999</price>
                     <quantity>8</quantity>
                 </product>
-                <product>
+                <product color="Черный">
                     <producer>LG</producer>
                     <model>HB655</model>
                     <productionDate>20-11-2015</productionDate>
-                    <color>Черный</color>
                     <price>22999</price>
                     <quantity>1</quantity>
                 </product>
@@ -204,27 +184,24 @@
         <subcategory>
             <subcategoryName>Приставки для цифрового ТВ</subcategoryName>
             <products>
-                <product>
+                <product color="Черный">
                     <producer>DEXP</producer>
                     <model>HD991</model>
                     <productionDate>09-09-2012</productionDate>
-                    <color>Черный</color>
                     <price>999</price>
                     <quantity>0</quantity>
                 </product>
-                <product>
+                <product color="Черный">
                     <producer>Tesler</producer>
                     <model>DS831</model>
                     <productionDate>01-01-2017</productionDate>
-                    <color>Черный</color>
                     <price>999</price>
                     <quantity>6</quantity>
                 </product>
-                <product>
+                <product color="Черный">
                     <producer>CADENA</producer>
                     <model>CD181</model>
                     <productionDate>28-02-2018</productionDate>
-                    <color>Черный</color>
                     <price>1050</price>
                     <quantity>11</quantity>
                 </product>

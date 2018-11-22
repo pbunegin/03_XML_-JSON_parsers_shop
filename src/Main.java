@@ -1,5 +1,5 @@
-package service;
-
+import service.ConverterJsonXml;
+import service.StaxJaxbParser;
 import javax.xml.bind.JAXBException;
 import javax.xml.stream.XMLStreamException;
 
@@ -11,9 +11,9 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            StaxJaxb staxJaxb = new StaxJaxb();
-            staxJaxb.validation(SHOP_XML,SHOP_XSD);
-            staxJaxb.parse(SHOP_XML);
+            StaxJaxbParser staxJaxbParser = new StaxJaxbParser();
+            staxJaxbParser.validation(SHOP_XML,SHOP_XSD);
+            staxJaxbParser.parse(SHOP_XML);
         } catch (XMLStreamException | JAXBException e) {
             System.out.println(e.getMessage());
         }
