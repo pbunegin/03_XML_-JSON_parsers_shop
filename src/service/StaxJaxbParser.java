@@ -35,27 +35,34 @@ public class StaxJaxbParser {
             if (event == XMLStreamReader.END_ELEMENT && xsr.getLocalName().equalsIgnoreCase(TagName.SHOP.toString()))
                 break;
             if (event == XMLStreamReader.START_ELEMENT) {
-                if (xsr.getLocalName().equalsIgnoreCase(TagName.SHOP.toString()))
-                    shop = new Shop();
-                if (xsr.getLocalName().equalsIgnoreCase(TagName.CATEGORY.toString())) {
-                    Category category = new Category();
-                    if (shop != null)
-                        shop.getCategories().add(category);
-                }
-                if (xsr.getLocalName().equalsIgnoreCase(TagName.CATEGORYNAME.toString())) {
-                    List<Category> categories = null;
-                    if (shop != null)
-                        categories = shop.getCategories();
-                    if (categories != null)
-                        categories.get(categories.size() - 1).setCategoryName(xsr.getElementText());
-                }
-                if (xsr.getLocalName().equalsIgnoreCase(TagName.SUBCATEGORY.toString())) {
-                    JAXBContext jc = JAXBContext.newInstance(Subcategory.class);
-                    Unmarshaller unmarshaller = jc.createUnmarshaller();
-                    JAXBElement<Subcategory> jb = unmarshaller.unmarshal(xsr, Subcategory.class);
-                    if (shop != null) {
-                        List<Category> categories = shop.getCategories();
-                        categories.get(categories.size() - 1).getSubcategories().add(jb.getValue());
+                switch (TagName.valueOf(xsr.getLocalName())) {
+                    case SHOP: {
+                        shop = new Shop();
+                        break;
+                    }
+                    case CATEGORY: {
+                        Category category = new Category();
+                        if (shop != null)
+                            shop.getCategories().add(category);
+                        break;
+                    }
+                    case CATEGORYNAME: {
+                        List<Category> categories = null;
+                        if (shop != null)
+                            categories = shop.getCategories();
+                        if (categories != null)
+                            categories.get(categories.size() - 1).setCategoryName(xsr.getElementText());
+                        break;
+                    }
+                    case SUBCATEGORY: {
+                        JAXBContext jc = JAXBContext.newInstance(Subcategory.class);
+                        Unmarshaller unmarshaller = jc.createUnmarshaller();
+                        JAXBElement<Subcategory> jb = unmarshaller.unmarshal(xsr, Subcategory.class);
+                        if (shop != null) {
+                            List<Category> categories = shop.getCategories();
+                            categories.get(categories.size() - 1).getSubcategories().add(jb.getValue());
+                        }
+                        break;
                     }
                 }
             }
