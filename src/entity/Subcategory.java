@@ -10,7 +10,6 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Subcategory {
     private String subcategoryName;
-    @XmlElementWrapper(name = "products")
     @XmlElement(name = "product")
     private List<Product> products = new ArrayList<>();
 
