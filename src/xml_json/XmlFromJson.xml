@@ -9,21 +9,21 @@
                     <producer>Irbis</producer>
                     <model>NB290</model>
                     <productionDate>12-10-2017</productionDate>
-                    <price>7999.0</price>
+                    <price>0.0</price>
                     <quantity>35</quantity>
                 </product>
                 <product color="Белый">
                     <producer>Irbis</producer>
                     <model>NB344</model>
                     <productionDate>20-05-2016</productionDate>
-                    <price>7999.0</price>
+                    <price>0.0</price>
                     <quantity>11</quantity>
                 </product>
                 <product color="Синий">
                     <producer>Prestigio</producer>
                     <model>PS116</model>
                     <productionDate>15-02-2018</productionDate>
-                    <price>9999.0</price>
+                    <price>0.0</price>
                     <quantity>5</quantity>
                 </product>
             </products>
@@ -35,21 +35,21 @@
                     <producer>DEXP</producer>
                     <model>CM408</model>
                     <productionDate>25-08-2009</productionDate>
-                    <price>199.0</price>
+                    <price>0.0</price>
                     <quantity>120</quantity>
                 </product>
                 <product color="Черный">
                     <producer>Aceline</producer>
                     <model>AV150</model>
                     <productionDate>14-08-2012</productionDate>
-                    <price>699.0</price>
+                    <price>0.0</price>
                     <quantity>22</quantity>
                 </product>
                 <product color="Черный">
                     <producer>HP</producer>
                     <model>WE449</model>
                     <productionDate>11-06-2013</productionDate>
-                    <price>550.0</price>
+                    <price>0.0</price>
                     <quantity>7</quantity>
                 </product>
             </products>
@@ -61,21 +61,21 @@
                     <producer>Smartbuy</producer>
                     <model>SS811</model>
                     <productionDate>05-10-2015</productionDate>
-                    <price>1450.0</price>
+                    <price>0.0</price>
                     <quantity>16</quantity>
                 </product>
                 <product color="Синий">
                     <producer>WD</producer>
                     <model>WD320</model>
                     <productionDate>17-11-2014</productionDate>
-                    <price>2799.0</price>
+                    <price>0.0</price>
                     <quantity>6</quantity>
                 </product>
                 <product color="Черный">
                     <producer>LITEON</producer>
                     <model>ES101</model>
                     <productionDate>18-07-2017</productionDate>
-                    <price>1850.0</price>
+                    <price>0.0</price>
                     <quantity>19</quantity>
                 </product>
             </products>
@@ -87,14 +87,14 @@
                     <producer>FinePower</producer>
                     <model>FE785</model>
                     <productionDate>30-05-2008</productionDate>
-                    <price>1999.0</price>
+                    <price>0.0</price>
                     <quantity>12</quantity>
                 </product>
                 <product color="Черный">
                     <producer>FinePower</producer>
                     <model>FN461</model>
                     <productionDate>28-06-2014</productionDate>
-                    <price>2199.0</price>
+                    <price>0.0</price>
                     <quantity>2</quantity>
                 </product>
             </products>
@@ -109,21 +109,21 @@
                     <producer>Harper</producer>
                     <model>HR470</model>
                     <productionDate>12-10-2017</productionDate>
-                    <price>6799.0</price>
+                    <price>0.0</price>
                     <quantity>10</quantity>
                 </product>
                 <product color="Белый">
                     <producer>DEXP</producer>
                     <model>PH197</model>
                     <productionDate>20-03-2014</productionDate>
-                    <price>6999.0</price>
+                    <price>0.0</price>
                     <quantity>4</quantity>
                 </product>
                 <product color="Черный">
                     <producer>Telefunken</producer>
                     <model>TF191</model>
                     <productionDate>15-02-2010</productionDate>
-                    <price>7499.0</price>
+                    <price>0.0</price>
                     <quantity>16</quantity>
                 </product>
             </products>
@@ -135,21 +135,21 @@
                     <producer>DNS</producer>
                     <model>DN261</model>
                     <productionDate>01-04-2008</productionDate>
-                    <price>450.0</price>
+                    <price>0.0</price>
                     <quantity>42</quantity>
                 </product>
                 <product color="Черный">
                     <producer>РЭМО</producer>
                     <model>RM465</model>
                     <productionDate>22-10-2018</productionDate>
-                    <price>550.0</price>
+                    <price>0.0</price>
                     <quantity>14</quantity>
                 </product>
                 <product color="Черный">
                     <producer>Onkron</producer>
                     <model>OR451</model>
                     <productionDate>17-07-2017</productionDate>
-                    <price>599.0</price>
+                    <price>0.0</price>
                     <quantity>18</quantity>
                 </product>
             </products>
@@ -161,21 +161,21 @@
                     <producer>Sony</producer>
                     <model>HE410</model>
                     <productionDate>05-10-2015</productionDate>
-                    <price>19799.0</price>
+                    <price>0.0</price>
                     <quantity>10</quantity>
                 </product>
                 <product color="Синий">
                     <producer>Sony</producer>
                     <model>FE310</model>
                     <productionDate>17-11-2013</productionDate>
-                    <price>19999.0</price>
+                    <price>0.0</price>
                     <quantity>8</quantity>
                 </product>
                 <product color="Черный">
                     <producer>LG</producer>
                     <model>HB655</model>
                     <productionDate>20-11-2015</productionDate>
-                    <price>22999.0</price>
+                    <price>0.0</price>
                     <quantity>1</quantity>
                 </product>
             </products>
@@ -187,21 +187,21 @@
                     <producer>DEXP</producer>
                     <model>HD991</model>
                     <productionDate>09-09-2012</productionDate>
-                    <price>999.0</price>
+                    <price>0.0</price>
                     <quantity>0</quantity>
                 </product>
                 <product color="Черный">
                     <producer>Tesler</producer>
                     <model>DS831</model>
                     <productionDate>01-01-2017</productionDate>
-                    <price>999.0</price>
+                    <price>0.0</price>
                     <quantity>6</quantity>
                 </product>
                 <product color="Черный">
                     <producer>CADENA</producer>
                     <model>CD181</model>
                     <productionDate>28-02-2018</productionDate>
-                    <price>1050.0</price>
+                    <price>0.0</price>
                     <quantity>11</quantity>
                 </product>
             </products>

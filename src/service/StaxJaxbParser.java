@@ -24,6 +24,10 @@ import java.io.IOException;
 import java.util.List;
 
 public class StaxJaxbParser {
+    private static final String SHOP = "shop";
+    private static final String CATEGORY = "category";
+    private static final String CATEGORYNAME = "categoryName";
+    private static final String SUBCATEGORY = "subcategory";
 
     public void parse(String shopXml) throws XMLStreamException, JAXBException {
         XMLInputFactory xif = XMLInputFactory.newFactory();
@@ -32,10 +36,10 @@ public class StaxJaxbParser {
         Shop shop = null;
         while (xsr.hasNext()) {
             int event = xsr.nextTag();
-            if (event == XMLStreamReader.END_ELEMENT && xsr.getLocalName().equalsIgnoreCase(TagName.SHOP.toString()))
+            if (event == XMLStreamReader.END_ELEMENT && xsr.getLocalName().equals(SHOP))
                 break;
             if (event == XMLStreamReader.START_ELEMENT) {
-                switch (TagName.valueOf(xsr.getLocalName())) {
+                switch (xsr.getLocalName()) {
                     case SHOP: {
                         shop = new Shop();
                         break;

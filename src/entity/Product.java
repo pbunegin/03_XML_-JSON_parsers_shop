@@ -1,5 +1,6 @@
 package entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import service.LocalDateAdapter;
@@ -22,8 +23,8 @@ public class Product {
     private
     LocalDate productionDate;
     @XmlAttribute
-    private
-    String color;
+    private String color;
+    @JsonIgnore
     private double price;
     private int quantity;
 
